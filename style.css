@@ -1,0 +1,42 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .buttonDelete {
+  font-size: 1rem;
+  background-color: red;
+  margin: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+}
+
+main .counterSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .counterSection .button {
+  background-color: blue;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main .counterSection span {
+  font-size: 7rem;
+}
